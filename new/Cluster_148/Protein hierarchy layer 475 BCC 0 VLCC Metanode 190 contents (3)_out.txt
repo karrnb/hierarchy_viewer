@@ -1,0 +1,176 @@
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uof
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+2y3q
+1.55A structure of apo bacterioferritin from E. coli
+
+Classification: METAL BINDING PROTEIN
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3e1m
+Crystal structure of E. coli Bacterioferritin (BFR) obtained after soaking APO-BFR crystals for 2.5 minutes in FE2+ (2.5M FE(II)-BFR)
+
+Classification: METAL BINDING PROTEIN
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+2y3q
+1.55A structure of apo bacterioferritin from E. coli
+
+Classification: METAL BINDING PROTEIN
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uof
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3uoi
+Mycobacterium tuberculosis bacterioferritin, BfrA
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+

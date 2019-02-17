@@ -1,0 +1,385 @@
+1vf5
+Crystal Structure of Cytochrome b6f Complex from M.laminosus
+
+Classification: PHOTOSYNTHESIS
+Organism(s): Mastigocladus laminosus
+-----------------------------------
+
+2wp9
+Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhB His207Thr mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+1pp9
+Bovine cytochrome bc1 complex with stigmatellin bound
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+-----------------------------------
+
+2bs3
+GLU C180 -> GLN VARIANT QUINOL:FUMARATE REDUCTASE FROM WOLINELLA SUCCINOGENES
+
+Classification: OXIDOREDUCTASE
+Organism(s): Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 602W)
+-----------------------------------
+
+2qjy
+Crystal structure of rhodobacter sphaeroides double mutant with stigmatellin and UQ2
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+2wp9
+Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhB His207Thr mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2qjy
+Crystal structure of rhodobacter sphaeroides double mutant with stigmatellin and UQ2
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+2wdq
+E. coli succinate:quinone oxidoreductase (SQR) with carboxin bound
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2wdq
+E. coli succinate:quinone oxidoreductase (SQR) with carboxin bound
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2qjp
+Crystal structure of wild type rhodobacter sphaeroides with stigmatellin and antimycin inhibited
+
+Classification: ELECTRON TRANSPORT
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+2fyu
+Crystal structure of bovine heart mitochondrial bc1 with jg144 inhibitor
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+-----------------------------------
+
+2fyn
+Crystal Structure Analysis of the double mutant Rhodobacter Sphaeroides bc1 complex
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Rhodobacter sphaeroides
+-----------------------------------
+
+2wu5
+Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhD His71Met mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2qjy
+Crystal structure of rhodobacter sphaeroides double mutant with stigmatellin and UQ2
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+1sqx
+Crystal Structure Analysis of Bovine Bc1 with Stigmatellin A
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+-----------------------------------
+
+2wdq
+E. coli succinate:quinone oxidoreductase (SQR) with carboxin bound
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2qjy
+Crystal structure of rhodobacter sphaeroides double mutant with stigmatellin and UQ2
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+2fyn
+Crystal Structure Analysis of the double mutant Rhodobacter Sphaeroides bc1 complex
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Rhodobacter sphaeroides
+-----------------------------------
+
+2qjy
+Crystal structure of rhodobacter sphaeroides double mutant with stigmatellin and UQ2
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+4duc
+cytochrome P450 BM3h-2G9 MRI sensor, no ligand
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bacillus megaterium (strain ATCC 14581 / DSM 32 / JCM 2506 / NBRC 15308 / NCIMB 9376 / NCTC 10342 / VKM B-512)
+Expression System: Escherichia coli
+-----------------------------------
+
+2fyn
+Crystal Structure Analysis of the double mutant Rhodobacter Sphaeroides bc1 complex
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Rhodobacter sphaeroides
+-----------------------------------
+
+2qjp
+Crystal structure of wild type rhodobacter sphaeroides with stigmatellin and antimycin inhibited
+
+Classification: ELECTRON TRANSPORT
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+2qjp
+Crystal structure of wild type rhodobacter sphaeroides with stigmatellin and antimycin inhibited
+
+Classification: ELECTRON TRANSPORT
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+1pp9
+Bovine cytochrome bc1 complex with stigmatellin bound
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+-----------------------------------
+
+2ws3
+Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhD Tyr83Phe mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2wdv
+E. coli succinate:quinone oxidoreductase (SQR) with an empty quinone- binding pocket
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2ws3
+Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhD Tyr83Phe mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2e74
+Crystal Structure of the Cytochrome b6f Complex from M.laminosus
+
+Classification: PHOTOSYNTHESIS
+Organism(s): Mastigocladus laminosus
+-----------------------------------
+
+2d2c
+Crystal Structure Of Cytochrome B6F Complex with DBMIB From M. Laminosus
+
+Classification: PHOTOSYNTHESIS
+Organism(s): Mastigocladus laminosus
+-----------------------------------
+
+2wu2
+Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhC His84Met mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2qjp
+Crystal structure of wild type rhodobacter sphaeroides with stigmatellin and antimycin inhibited
+
+Classification: ELECTRON TRANSPORT
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+1ntk
+Crystal Structure of Mitochondrial Cytochrome bc1 in Complex with Antimycin A1
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+-----------------------------------
+
+1sqb
+Crystal Structure Analysis of Bovine Bc1 with Azoxystrobin
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+-----------------------------------
+
+2a06
+Bovine cytochrome bc1 complex with stigmatellin bound
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+-----------------------------------
+
+2yiu
+X-ray structure of the dimeric cytochrome BC1 complex from the soil bacterium paracoccus denitrificans at 2.7 angstrom resolution
+
+Classification: OXIDOREDUCTASE
+Organism(s): Paracoccus denitrificans
+-----------------------------------
+
+2qjp
+Crystal structure of wild type rhodobacter sphaeroides with stigmatellin and antimycin inhibited
+
+Classification: ELECTRON TRANSPORT
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+1smi
+A single mutation of P450 BM3 induces the conformational rearrangement seen upon substrate-binding in wild-type enzyme
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bacillus megaterium (strain ATCC 14581 / DSM 32 / JCM 2506 / NBRC 15308 / NCIMB 9376 / NCTC 10342 / VKM B-512)
+Expression System: Escherichia coli
+-----------------------------------
+
+1l0n
+native structure of bovine mitochondrial cytochrome bc1 complex
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+-----------------------------------
+
+2wdr
+E. coli succinate:quinone oxidoreductase (SQR) with pentachlorophenol bound
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2qjy
+Crystal structure of rhodobacter sphaeroides double mutant with stigmatellin and UQ2
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+2qjp
+Crystal structure of wild type rhodobacter sphaeroides with stigmatellin and antimycin inhibited
+
+Classification: ELECTRON TRANSPORT
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+2wdr
+E. coli succinate:quinone oxidoreductase (SQR) with pentachlorophenol bound
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2yiu
+X-ray structure of the dimeric cytochrome BC1 complex from the soil bacterium paracoccus denitrificans at 2.7 angstrom resolution
+
+Classification: OXIDOREDUCTASE
+Organism(s): Paracoccus denitrificans
+-----------------------------------
+
+3h1l
+Chicken cytochrome BC1 complex with ascochlorin bound at QO and QI sites
+
+Classification: OXIDOREDUCTASE
+Organism(s): Gallus gallus
+-----------------------------------
+
+2wp9
+Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhB His207Thr mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2ws3
+Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhD Tyr83Phe mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2wu5
+Crystal structure of the E. coli succinate:quinone oxidoreductase (SQR) SdhD His71Met mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+
+2qjy
+Crystal structure of rhodobacter sphaeroides double mutant with stigmatellin and UQ2
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+2fyn
+Crystal Structure Analysis of the double mutant Rhodobacter Sphaeroides bc1 complex
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Rhodobacter sphaeroides
+-----------------------------------
+
+2wdv
+E. coli succinate:quinone oxidoreductase (SQR) with an empty quinone- binding pocket
+
+Classification: OXIDOREDUCTASE
+Organism(s): Escherichia coli (strain K12)
+Expression System: Escherichia coli
+-----------------------------------
+

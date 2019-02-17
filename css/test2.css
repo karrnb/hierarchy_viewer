@@ -1,0 +1,226 @@
+html,body{
+	width:100%;
+	height:100%;
+	overflow:hidden !important;
+	
+}
+
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+
+.nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+    z-index: 100 !important;
+}
+
+d3-tip {
+    line-height: 1;
+    color: black;
+}
+
+line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+
+circle.selected  {
+    stroke: #4f4;
+    stroke-opacity: .9;
+    stroke-width:2px;
+}
+
+circle.highlight  {
+    stroke: black;
+    stroke-opacity: .9;
+    stroke-width:2px;
+}
+
+circle.highlight2  {
+    stroke: black;
+    stroke-opacity: .5;
+    stroke-width:15px;
+}
+
+circle.not-selected  {
+    stroke: #fff;
+    stroke-opacity: .3;
+    fill-opacity: .3;
+    stroke-width:2px;
+    opacity: .3;
+}
+line.selected  {
+    stroke: #4f4;
+    stroke-opacity: .9;
+    stroke-width: 5px;
+    z-index: 100;
+}
+
+line.level1  {
+    stroke: #4f4;
+    stroke-opacity: .9;
+    stroke-width: 3px;
+    z-index: 100;
+}
+
+line.level2  {
+    stroke: #4f4;
+    stroke-opacity: .9;
+    stroke-width: 2px;
+    z-index: 100;
+}
+
+line.neighbor {
+    stroke: #999;
+    stroke-opacity: .3;
+    /*stroke-width:1px;*/
+}
+line.not-selected  {
+    stroke: #999;
+    stroke-opacity: 0.3;
+    opacity: 0.3;
+}
+#chart {
+    position: fixed;
+    left: 30%;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    
+}
+
+text.selected {
+  pointer-events: none;
+  font: 30px sans-serif;
+}
+
+text.not-selected {
+  pointer-events: none;
+  font: 10px sans-serif;
+  opacity: 0.1;
+}
+
+#header {
+    padding-left: 17px;
+    font-size: xx-large;
+}
+
+#overview {
+    width: 80%;
+}
+
+#tools {
+    z-index: 100 !important;
+    padding-left: 10%;
+    padding-top: 5%;
+    width: 90%;
+}
+
+.btn-info {
+    padding-top: 1% !important; 
+}
+
+#details {
+    width: 80%;
+    padding-top: 10%;
+    padding-right: 1%;
+}
+
+#main-body {
+    height: -webkit-fill-available;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.scroll-box {
+    overflow-y: scroll;
+    height: 300px;
+    font-size: 12px;
+    /*padding: 1rem*/
+}
+
+rect.selection {
+    cursor: move !important;
+    -webkit-touch-callout: none !important;
+    -webkit-user-select: none !important;
+    -khtml-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+    stroke: #545454;
+    stroke-width: 2px;
+    stroke-opacity: 1;
+    fill: white;
+    fill-opacity: 0.5;
+}
+
+#list-tab {
+    overflow-y: auto;
+    max-height: 900px;
+    /*width: 20% !important;*/
+}
+
+.badge {
+    float: right;
+}
+
+.just-padding {
+  padding: 15px;
+}
+
+.list-group.list-group-root {
+  padding: 0;
+  overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+  border-radius: 0;
+  border-width: 1px 0 0 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+  padding-left: 30px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+  padding-left: 45px;
+}
+
+.list-group-item .glyphicon {
+  margin-right: 5px;
+}
+
+.badge-primary {
+  background-color: #f89406 !important;
+}
+.badge-primary:hover {
+  background-color: #c67605;
+}
+
+.badge-success {
+  background-color: #468847 !important;
+}
+.badge-success:hover {
+  background-color: #356635;
+}

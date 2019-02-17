@@ -1,0 +1,194 @@
+4xpi
+Fe protein independent substrate reduction by nitrogenase variants altered in intramolecular electron transfer
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+Expression System: Azotobacter vinelandii
+-----------------------------------
+
+4wza
+Asymmetric Nucleotide Binding in the Nitrogenase Complex
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+4wzb
+Crystal Structure of MgAMPPCP-bound Av2-Av1 complex
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+5cx1
+Nitrogenase molybdenum-iron protein beta-K400E mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+Expression System: Azotobacter vinelandii
+-----------------------------------
+
+4xpi
+Fe protein independent substrate reduction by nitrogenase variants altered in intramolecular electron transfer
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+Expression System: Azotobacter vinelandii
+-----------------------------------
+
+4nd8
+Av Nitrogenase MoFe Protein High pH Form
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+5cx1
+Nitrogenase molybdenum-iron protein beta-K400E mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+Expression System: Azotobacter vinelandii
+-----------------------------------
+
+4wes
+Nitrogenase molybdenum-iron protein from Clostridium pasteurianum at 1.08 A resolution
+
+Classification: OXIDOREDUCTASE
+Organism(s): Clostridium pasteurianum
+-----------------------------------
+
+4wn9
+Structure of the Nitrogenase MoFe Protein from Clostridium pasteurianum Pressurized with Xenon
+
+Classification: OXIDOREDUCTASE
+Organism(s): Clostridium pasteurianum
+Expression System: Clostridium pasteurianum
+-----------------------------------
+
+4nd8
+Av Nitrogenase MoFe Protein High pH Form
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+4wn9
+Structure of the Nitrogenase MoFe Protein from Clostridium pasteurianum Pressurized with Xenon
+
+Classification: OXIDOREDUCTASE
+Organism(s): Clostridium pasteurianum
+Expression System: Clostridium pasteurianum
+-----------------------------------
+
+5cx1
+Nitrogenase molybdenum-iron protein beta-K400E mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+Expression System: Azotobacter vinelandii
+-----------------------------------
+
+5cx1
+Nitrogenase molybdenum-iron protein beta-K400E mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+Expression System: Azotobacter vinelandii
+-----------------------------------
+
+5bvh
+CO-bound form of Selenium incorporated nitrogenase MoFe-protein (Av1-Se-CO) from A. vinelandii
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+5cx1
+Nitrogenase molybdenum-iron protein beta-K400E mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+Expression System: Azotobacter vinelandii
+-----------------------------------
+
+5cx1
+Nitrogenase molybdenum-iron protein beta-K400E mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+Expression System: Azotobacter vinelandii
+-----------------------------------
+
+3u7q
+A. vinelandii nitrogenase MoFe protein at atomic resolution
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+4wes
+Nitrogenase molybdenum-iron protein from Clostridium pasteurianum at 1.08 A resolution
+
+Classification: OXIDOREDUCTASE
+Organism(s): Clostridium pasteurianum
+-----------------------------------
+
+4tku
+Reactivated Nitrogenase MoFe-protein from A. vinelandii
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+5cx1
+Nitrogenase molybdenum-iron protein beta-K400E mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+Expression System: Azotobacter vinelandii
+-----------------------------------
+
+4wza
+Asymmetric Nucleotide Binding in the Nitrogenase Complex
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+4tku
+Reactivated Nitrogenase MoFe-protein from A. vinelandii
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+3u7q
+A. vinelandii nitrogenase MoFe protein at atomic resolution
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+4wzb
+Crystal Structure of MgAMPPCP-bound Av2-Av1 complex
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+5bvh
+CO-bound form of Selenium incorporated nitrogenase MoFe-protein (Av1-Se-CO) from A. vinelandii
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+-----------------------------------
+
+5cx1
+Nitrogenase molybdenum-iron protein beta-K400E mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azotobacter vinelandii
+Expression System: Azotobacter vinelandii
+-----------------------------------
+

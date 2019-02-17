@@ -1,0 +1,234 @@
+3q08
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 6.5
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+
+5a13
+Crystal structure of Chlorite Dismutase from Magnetospirillum sp. in complex with thiocyanate
+
+Classification: OXIDOREDUCTASE
+Organism(s): Magnetospirillum sp
+-----------------------------------
+
+3qnr
+DyPB from Rhodococcus jostii RHA1, crystal form 1
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodococcus jostii (strain RHA1)
+Expression System: Escherichia coli BL21
+-----------------------------------
+
+4gu7
+Crystal structure of DyP-type peroxidase (SCO7193) from Streptomyces coelicolor
+
+Classification: OXIDOREDUCTASE
+Organism(s): Streptomyces coelicolor (strain ATCC BAA-471 / A3(2) / M145)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+4m09
+Crystal Structure of Mutant Chlorite Dismutase from Candidatus Nitrospira defluvii W146Y R173Q
+
+Classification: OXIDOREDUCTASE
+Organism(s): Nitrospira defluvii
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3q09
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 9.0
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+
+3q08
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 6.5
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+
+5a13
+Crystal structure of Chlorite Dismutase from Magnetospirillum sp. in complex with thiocyanate
+
+Classification: OXIDOREDUCTASE
+Organism(s): Magnetospirillum sp
+-----------------------------------
+
+3q09
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 9.0
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+
+3q09
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 9.0
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+
+3nn3
+Structure of chlorite dismutase from Candidatus Nitrospira defluvii R173A mutant
+
+Classification: OXIDOREDUCTASE
+Organism(s): Nitrospira defluvii
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+5a12
+Crystal structure of Chlorite Dismutase from Magnetospirillum sp. in complex with azide
+
+Classification: OXIDOREDUCTASE
+Organism(s): Magnetospirillum sp
+-----------------------------------
+
+4m05
+Crystal Structure of Mutant Chlorite Dismutase from Candidatus Nitrospira defluvii R173E
+
+Classification: OXIDOREDUCTASE
+Organism(s): Nitrospira defluvii
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3q09
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 9.0
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+
+3q08
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 6.5
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+
+3q09
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 9.0
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+
+5a12
+Crystal structure of Chlorite Dismutase from Magnetospirillum sp. in complex with azide
+
+Classification: OXIDOREDUCTASE
+Organism(s): Magnetospirillum sp
+-----------------------------------
+
+4m09
+Crystal Structure of Mutant Chlorite Dismutase from Candidatus Nitrospira defluvii W146Y R173Q
+
+Classification: OXIDOREDUCTASE
+Organism(s): Nitrospira defluvii
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3q09
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 9.0
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+
+3ved
+Rhodococcus jostii RHA1 DypB D153H variant in complex with heme
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodococcus jostii (strain RHA1)
+Expression System: Escherichia coli BL21
+-----------------------------------
+
+4m09
+Crystal Structure of Mutant Chlorite Dismutase from Candidatus Nitrospira defluvii W146Y R173Q
+
+Classification: OXIDOREDUCTASE
+Organism(s): Nitrospira defluvii
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+4m05
+Crystal Structure of Mutant Chlorite Dismutase from Candidatus Nitrospira defluvii R173E
+
+Classification: OXIDOREDUCTASE
+Organism(s): Nitrospira defluvii
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3q09
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 9.0
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+
+5a13
+Crystal structure of Chlorite Dismutase from Magnetospirillum sp. in complex with thiocyanate
+
+Classification: OXIDOREDUCTASE
+Organism(s): Magnetospirillum sp
+-----------------------------------
+
+3nn2
+Structure of chlorite dismutase from Candidatus Nitrospira defluvii in complex with cyanide
+
+Classification: OXIDOREDUCTASE
+Organism(s): Nitrospira defluvii
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+4hov
+DypB N246A in complex with manganese
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodococcus jostii (strain RHA1)
+Expression System: Escherichia coli BL21
+-----------------------------------
+
+3q08
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 6.5
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+
+5a13
+Crystal structure of Chlorite Dismutase from Magnetospirillum sp. in complex with thiocyanate
+
+Classification: OXIDOREDUCTASE
+Organism(s): Magnetospirillum sp
+-----------------------------------
+
+5de0
+Dye-decolorizing protein from V. cholerae
+
+Classification: OXIDOREDUCTASE
+Organism(s): Vibrio cholerae serotype O1 (strain ATCC 39315 / El Tor Inaba N16961)
+Expression System: Escherichia coli
+-----------------------------------
+
+3q08
+Crystal Structure of Chlorite Dismutase from D. Aromatica at pH 6.5
+
+Classification: OXIDOREDUCTASE
+Organism(s): Dechloromonas aromatica (strain RCB)
+Expression System: Escherichia coli
+-----------------------------------
+

@@ -1,0 +1,200 @@
+3zjo
+M.acetivorans protoglobin in complex with azide
+
+Classification: IRON-BINDING PROTEIN
+Organism(s): Methanosarcina acetivorans (strain ATCC 35395 / DSM 2834 / JCM 12185 / C2A)
+Expression System: Escherichia coli
+-----------------------------------
+
+2vxh
+The crystal structure of chlorite dismutase: a detox enzyme producing molecular oxygen
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azospira oryzae
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+4gyd
+Nostoc sp Cytochrome c6
+
+Classification: ELECTRON TRANSPORT
+Organism(s): Nostoc sp. (strain PCC 7120 / SAG 25.82 / UTEX 2576)
+Expression System: Escherichia coli
+-----------------------------------
+
+2fyn
+Crystal Structure Analysis of the double mutant Rhodobacter Sphaeroides bc1 complex
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Rhodobacter sphaeroides
+-----------------------------------
+
+2hys
+Crystal structure of nitrophorin 2 complexed with cyanide
+
+Classification: TRANSPORT PROTEIN
+Organism(s): Rhodnius prolixus
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3ntg
+Crystal structure of COX-2 with selective compound 23d-(R)
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mus musculus
+Expression System: Spodoptera frugiperda
+-----------------------------------
+
+2fyn
+Crystal Structure Analysis of the double mutant Rhodobacter Sphaeroides bc1 complex
+
+Classification: OXIDOREDUCTASE
+Organism(s): Rhodobacter sphaeroides
+Expression System: Rhodobacter sphaeroides
+-----------------------------------
+
+1p6l
+Bovine endothelial NOS heme domain with L-N(omega)-nitroarginine-2,4-L-diaminobutyric amide bound
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Komagataella pastoris
+-----------------------------------
+
+5a1p
+Crystal structure of cytochrome P450 3A4 bound to progesterone and citrate
+
+Classification: OXIDOREDUCTASE
+Organism(s): Homo sapiens
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+4cvg
+Structure of bovine endothelial nitric oxide synthase heme domain (H4B-free) supplemented with 50uM Zn acetate and with poor binding of 6-acetyl-2-amino-7,7-dimethyl-7,8-dihydropteridin-4(3H)-one.
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+5nse
+BOVINE ENDOTHELIAL NITRIC OXIDE SYNTHASE, H4B-FREE, HYDROXY-ARG COMPLEX
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21
+-----------------------------------
+
+3zjs
+M.acetivorans protoglobin in complex with azide and Xenon
+
+Classification: IRON-BINDING PROTEIN
+Organism(s): Methanosarcina acetivorans (strain ATCC 35395 / DSM 2834 / JCM 12185 / C2A)
+Expression System: Escherichia coli
+-----------------------------------
+
+1p6n
+Bovine endothelial NOS heme domain with L-N(omega)-nitroarginine-(4R)-amino-L-proline amide bound
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Komagataella pastoris
+-----------------------------------
+
+6nse
+BOVINE ENDOTHELIAL NITRIC OXIDE SYNTHASE, H4B-FREE, CANAVANINE COMPLEX
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21
+-----------------------------------
+
+1nse
+BOVINE ENDOTHELIAL NITRIC OXIDE SYNTHASE
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21
+-----------------------------------
+
+4c9l
+Structure of Cyanide and Camphor bound wild type CYP101D1
+
+Classification: OXIDOREDUCTASE
+Organism(s): Novosphingobium aromaticivorans (strain ATCC 700278 / DSM 12444 / CIP 105152 / NBRC 16084 / F199)
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+4cul
+Structure of bovine endothelial nitric oxide synthase heme domain in complex with 6-acetyl-2-amino-7,7-dimethyl-7,8-dihydropteridin-4(3H)-one
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+2hx2
+Bovine eNOS heme domain complexed with (4S)-N-{4-Amino-5-[(2-aminoethyl)-hydroxyamino]-pentyl}-N'-nitroguanidine
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+3mqe
+Structure of SC-75416 bound at the COX-2 active site
+
+Classification: OXIDOREDUCTASE
+Organism(s): Mus musculus
+Expression System: Spodoptera frugiperda
+-----------------------------------
+
+8nse
+BOVINE ENDOTHELIAL NITRIC OXIDE SYNTHASE, NNA COMPLEX
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21
+-----------------------------------
+
+2qjp
+Crystal structure of wild type rhodobacter sphaeroides with stigmatellin and antimycin inhibited
+
+Classification: ELECTRON TRANSPORT
+Organism(s): Rhodobacter sphaeroides
+Expression System: Escherichia coli
+-----------------------------------
+
+8nse
+BOVINE ENDOTHELIAL NITRIC OXIDE SYNTHASE, NNA COMPLEX
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21
+-----------------------------------
+
+4cu1
+Structure of bovine endothelial nitric oxide synthase heme domain in complex with 6-[(2S)-3-amino-2-{5-[2-(6-amino-4-methylpyridin-2-yl)ethyl]pyridin-3-yl}propyl]-4-methylpyridin-2-amine
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+4cun
+Structure of bovine endothelial nitric oxide synthase heme domain in complex with (9aS)-2-amino-9a-methyl-8,9,9a,10-tetrahydrobenzo[g]pteridine-4,6(3H,7H)-dione
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+2qrw
+Crystal structure of Mycobacterium tuberculosis trHbO WG8F mutant
+
+Classification: TRANSPORT PROTEIN
+Organism(s): Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv)
+Expression System: Escherichia coli
+-----------------------------------
+

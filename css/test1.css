@@ -1,0 +1,105 @@
+/*.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+
+.nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+d3-tip {
+    line-height: 1;
+    color: black;
+}
+
+.link line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+
+#chart {
+        position: fixed;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        bottom: 0px;
+      }*/
+
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+
+.nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+d3-tip {
+    line-height: 1;
+    color: black;
+}
+
+line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+
+circle.selected  {
+    stroke: #4f4;
+    stroke-opacity: .9;
+    stroke-width:2px;
+}
+circle.not-selected  {
+    stroke: #fff;
+    stroke-opacity: .3;
+    fill-opacity: .3;
+    stroke-width:2px;
+    opacity: .3;
+}
+line.selected  {
+    stroke: #4f4;
+    stroke-opacity: .9;
+    stroke-width:2px;
+}
+
+line.neighbor {
+    stroke: #999;
+    stroke-opacity: .3;
+    /*stroke-width:1px;*/
+}
+line.not-selected  {
+    stroke: #999;
+    stroke-opacity: 0.3;
+    opacity: 0.3;
+}
+#chart {
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+text.selected {
+  pointer-events: none;
+  font: 30px sans-serif;
+}
+
+text.not-selected {
+  pointer-events: none;
+  font: 10px sans-serif;
+  opacity: 0.1;
+}
+
+#header {
+    padding-left: 17px;
+    font-size: xx-large;
+}
+

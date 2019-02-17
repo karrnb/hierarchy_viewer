@@ -1,0 +1,40 @@
+1i83
+BOVINE ENDOTHELIAL NITRIC OXIDE SYNTHASE HEME DOMAIN COMPLEXED WITH N1,N14-BIS((S-METHYL)ISOTHIOUREIDO)TETRADECANE (H4B FREE)
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli
+-----------------------------------
+
+1d0c
+BOVINE ENDOTHELIAL NITRIC OXIDE SYNTHASE HEME DOMAIN COMPLEXED WITH 3-BROMO-7-NITROINDAZOLE (H4B FREE)
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli
+-----------------------------------
+
+3nlf
+Structure of endothelial nitric oxide synthase heme domain complexed with 6-{{(3'R,4'S)-3'-[2"-(3'''-fluorophenethylamino)ethoxy]pyrrolidin-4'-yl}methyl}-4-methylpyridin-2-amine
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+2nw7
+Crystal Structure of Tryptophan 2,3-dioxygenase (TDO) from Xanthomonas campestris in complex with ferric heme. Northeast Structural Genomics Target XcR13
+
+Classification: OXIDOREDUCTASE
+Organism(s): Xanthomonas campestris pv. campestris (strain ATCC 33913 / DSM 3586 / NCPPB 528 / LMG 568 / P 25)
+Expression System: Escherichia coli
+-----------------------------------
+
+3oft
+Crystal Structure of Cytochrome P450 CYP101C1
+
+Classification: OXIDOREDUCTASE
+Organism(s): Novosphingobium aromaticivorans (strain ATCC 700278 / DSM 12444 / CIP 105152 / NBRC 16084 / F199)
+Expression System: Escherichia coli
+-----------------------------------
+

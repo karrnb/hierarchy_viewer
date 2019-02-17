@@ -1,0 +1,117 @@
+3zjj
+Phe(93)E11Leu mutation of M.acetivorans protoglobin in complex with cyanide
+
+Classification: IRON-BINDING PROTEIN
+Organism(s): Methanosarcina acetivorans (strain ATCC 35395 / DSM 2834 / JCM 12185 / C2A)
+Expression System: Escherichia coli
+-----------------------------------
+
+3tol
+Crystal structure of an engineered cytochrome cb562 that forms 1D, Zn-mediated coordination polymers
+
+Classification: METAL BINDING PROTEIN
+Organism(s): Escherichia coli
+Expression System: Escherichia coli
+-----------------------------------
+
+3bj3
+met-Perch hemoglobin at pH 8.0
+
+Classification: OXYGEN BINDING
+Organism(s): Perca flavescens
+-----------------------------------
+
+5prc
+PHOTOSYNTHETIC REACTION CENTER FROM RHODOPSEUDOMONAS VIRIDIS (ATRAZINE COMPLEX)
+
+Classification: PHOTOSYNTHETIC REACTION CENTER
+Organism(s): Blastochloris viridis
+-----------------------------------
+
+4cwv
+Structure of bovine endothelial nitric oxide synthase heme domain in complex with 4-METHYL-6-(((3R,4R)-4-((5-(PYRIDIN-2-YL)PENTYL)OXY) PYRROLIDIN-3-YL)METHYL)PYRIDIN-2-AMINE
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+1d1w
+BOVINE ENDOTHELIAL NITRIC OXIDE SYNTHASE HEME DOMAIN COMPLEXED WITH 2-AMINOTHIAZOLINE (H4B BOUND)
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli
+-----------------------------------
+
+2vxh
+The crystal structure of chlorite dismutase: a detox enzyme producing molecular oxygen
+
+Classification: OXIDOREDUCTASE
+Organism(s): Azospira oryzae
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+4d33
+Structure of bovine endothelial nitric oxide synthase heme domain in complex with (N1-(2-(1H-imidazol-1-yl)pyrimidin-4-yl)-N2-(3- fluorophenethyl)ethane-1,2-diamine
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+1ycb
+DISTAL POCKET POLARITY IN LIGAND BINDING TO MYOGLOBIN: DEOXY AND CARBONMONOXY FORMS OF A THREONINE68 (E11) MUTANT INVESTIGATED BY X-RAY CRYSTALLOGRAPHY AND INFRARED SPECTROSCOPY
+
+Classification: OXYGEN STORAGE
+Organism(s): Sus scrofa
+-----------------------------------
+
+4uha
+Structure of bovine endothelial nitric oxide synthase heme domain in complex with 3-(2-(6-Amino-4-methylpyridin-2-yl)ethyl)-5-(methyl(2-(methylamino)ethyl)amino)benzonitrile
+
+Classification: OXIDOREDUCTASE
+Organism(s): Bos taurus
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+2v0m
+Crystal structure of human P450 3A4 in complex with ketoconazole
+
+Classification: OXIDOREDUCTASE
+Organism(s): Homo sapiens
+Expression System: Escherichia coli
+-----------------------------------
+
+1t68
+Crystal structure of nitrophorin 2 complex with NO
+
+Classification: TRANSPORT PROTEIN
+Organism(s): Rhodnius prolixus
+Expression System: Escherichia coli BL21(DE3)
+-----------------------------------
+
+2a1n
+Crystal structure of ferrous dioxygen complex of D251N cytochrome P450cam
+
+Classification: OXIDOREDUCTASE
+Organism(s): Pseudomonas putida
+Expression System: Escherichia coli
+-----------------------------------
+
+4rkm
+Wolinella succinogenes octaheme sulfite reductase MccA, form I
+
+Classification: UNKNOWN FUNCTION
+Organism(s): Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 602W)
+Expression System: Wolinella succinogenes
+-----------------------------------
+
+3lxh
+Crystal Structure of Cytochrome P450 CYP101D1
+
+Classification: OXIDOREDUCTASE
+Organism(s): Novosphingobium aromaticivorans (strain ATCC 700278 / DSM 12444 / CIP 105152 / NBRC 16084 / F199)
+Expression System: Escherichia coli
+-----------------------------------
+
