@@ -230,4 +230,42 @@ rect.selection {
 
 .cc {
     padding-left: 8% !important;
+    padding-right: 1% !important;
+    padding-top: 1% !important;
+}
+
+.thumbnail {
+    width: 13% !important;
+    float: right;
+    margin-bottom: 0px !important;
+}
+
+.large {
+    position: absolute;
+    left: -9999px;
+}
+
+/*a:hover .large {
+    overflow: auto;
+    position: relative;
+    bottom: 100%;
+    left: 1%;
+    width: 60%;
+    top: -150px;
+    z-index: 1000;
+}*/
+
+#imgbox 
+{
+    vertical-align : middle;
+    position : absolute;
+    border: 1px solid #999;
+    background : #FFFFFF; 
+    filter: Alpha(Opacity=100);
+    visibility : hidden;
+    height : 300px;
+    width : 300px;
+    z-index : 50;
+    overflow : hidden;
+    text-align : center;
 }

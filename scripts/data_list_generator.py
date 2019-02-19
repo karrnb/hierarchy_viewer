@@ -7,6 +7,51 @@ BUCKET_SIZE = 4096
 
 BUCKET_OBJ = {}
 
+def convertBucketJson(layer, buckets):
+    for bucket_id, bucket in enumerate(buckets):
+
+        toFilename = path + layer + '/bucket_' + str(bucket_id) + '_adjacency_list.json'
+        adj_list = {}
+        for comp in bucket:
+            print(json.dumps(comp))
+            filename = path + comp['@file']
+            if '@start_line' in comp:
+                start = comp['@start_line']
+            else:
+                toFilename = path + 'small/layer_'+ layer + '_bucket_' + str(bucket_id) + '_adjacency_list.json'
+                start = 1
+            count = comp['@num_edges']
+            index = 1
+            # filename = './BCC_' + str(index) + '.csv'
+            with open(filename, 'r') as file:
+                fileContent = file.read()
+                edge_list = fileContent.split('\n')
+                counter = 1
+                for edge in edge_list:
+                    # print(edge)
+                    if len(edge) > 1:
+                        if ',' in edge:
+                            nodes = edge.strip().split(',')
+                        else:
+                            nodes = edge.strip().split(' ')
+
+                        if (counter >= int(start)) and (counter <= int(count)):
+                            if nodes[0] not in adj_list:
+                                adj_list[nodes[0]] = []
+
+                            adj_list[nodes[0]].append({nodes[1]:'6'})
+
+                            if nodes[1] not in adj_list:
+                                adj_list[nodes[1]] = []
+
+                            adj_list[nodes[1]].append({nodes[0]:'6'})
+                    counter += 1
+
+        # out_file_path = "./BCC_" + str(index) + "_adjacency_list.json"
+        with open(toFilename, "w+") as out_file:
+            out_file.write(json.dumps(adj_list))
+        print('Written to file: ' + str(toFilename))
+
 def add_into_bucket(data):
     BUCKET = []
     bucket_temp = []
@@ -78,6 +123,7 @@ def generate_bucket(layer, data):
         inner_bucket.append(data)                    
 
     bucket = add_into_bucket(inner_bucket)
+    convertBucketJson(layer, bucket)
     BUCKET_OBJ[layer] = bucket
 
 def convertJson(filename, toFilename, start, count):
