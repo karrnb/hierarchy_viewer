@@ -65,19 +65,6 @@ function zoomed() {
 
 var myTransform=d3.zoomIdentity;
 
-// var index_file = '../data/protein/small/cc_small.json';
-
-// $.getJSON(index_file, function(json) {
-//     $.each(json.root.CC, function(val) {
-//         // console.log(json.root.CC[val]['@file']);
-//         var filename = '../data/protein' + json.root.CC[val]['@file'].substr(1, json.root.CC[val]['@file'].length - 5);
-//         var edges = json.root.CC[val]['@num_edges'];
-//         var nodes = json.root.CC[val]['@num_nodes'];
-//         // console.log(filename.substr(22));
-//         $('#list-tab').append('<a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="" onclick="load_subgraph(this)" role="tab" aria-controls="home">'+filename.substr(22)+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>');
-//     }); 
-//     // console.log(json); // this will show the info it in firebug console
-// });
 var index_file = path + 'output_list.json';
 
 $.getJSON(index_file, function(json) {
@@ -101,25 +88,20 @@ $.getJSON(index_file, function(json) {
                                 var edges = biConnectedC['@num_edges'];
                                 var nodes = biConnectedC['@num_nodes'];
                                 // Name Biconnected Component used further down in load_subgraph
-                                bccString += '<a id="'+key+'_'+connectedC['@cc_id']+'_'+biConnectedC['@bcc_id']+'" href="#" class="list-group-item" onclick="load_subgraph(this)">BiConnected Component '+biConnectedC['@bcc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>'
-                                // bccString += '<a class="list-group-item list-group-item-action" data-toggle="list" href="" onclick="load_subgraph(this)" role="tab" aria-controls="home"> BiConnected Component '+biConnectedC['@bcc_id']+'</a>';
+                                bccString += '<a id="'+key+'_'+connectedC['@cc_id']+'_'+biConnectedC['@bcc_id']+'" href="#" class="list-group-item bcc" onclick="load_subgraph(this)">BiConnected Component '+biConnectedC['@bcc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>'
                             });
                         } else {
                             var biConnectedC = connectedC.BCC;
                             var edges = biConnectedC['@num_edges'];
                             var nodes = biConnectedC['@num_nodes'];
-                            bccString += '<a id="'+key+'_'+connectedC['@cc_id']+'_'+biConnectedC['@bcc_id']+'" href="#" class="list-group-item" onclick="load_subgraph(this)">BiConnected Component '+biConnectedC['@bcc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>'
-                            // bccString += '<a class="list-group-item list-group-item-action" data-toggle="list" href="" onclick="load_subgraph(this)" role="tab" aria-controls="home"> BiConnected Component '+biConnectedC['@bcc_id']+'</a>';
+                            bccString += '<a id="'+key+'_'+connectedC['@cc_id']+'_'+biConnectedC['@bcc_id']+'" href="#" class="list-group-item bcc" onclick="load_subgraph(this)">BiConnected Component '+biConnectedC['@bcc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>'
                         }
-                        ccString += '<a href="#'+ key + '_' + connectedC['@cc_id'] +'" class="list-group-item" data-toggle="collapse"><i class="glyphicon glyphicon-chevron-right"></i>Connected Component '+connectedC['@cc_id']+'</a><div class="list-group collapse" id="'+ key + '_' + connectedC['@cc_id'] +'">'+bccString+'</div>';
+                        ccString += '<a href="#'+ key + '_' + connectedC['@cc_id'] +'" class="list-group-item cc" data-toggle="collapse"><i class="glyphicon glyphicon-chevron-right"></i>Connected Component '+connectedC['@cc_id']+'</a><div class="list-group collapse" id="'+ key + '_' + connectedC['@cc_id'] +'">'+bccString+'</div>';
                     } else {
                         var edges = connectedC['@num_edges'];
                         var nodes = connectedC['@num_nodes'];
-                        ccString += '<a id="'+key+'_'+connectedC['@cc_id']+'" href="#'+ key + '_' + connectedC['@cc_id'] +'" class="list-group-item" onclick="load_subgraph(this)" data-toggle="collapse">Connected Component '+connectedC['@cc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>';
+                        ccString += '<a id="'+key+'_'+connectedC['@cc_id']+'" href="#'+ key + '_' + connectedC['@cc_id'] +'" class="list-group-item cc" onclick="load_subgraph(this)" data-toggle="collapse">Connected Component '+connectedC['@cc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>';
                     }
-                    // ccString += '<a href="#'+ key + '_' + connectedC['@cc_id'] +'" class="list-group-item" data-toggle="collapse"><i class="glyphicon glyphicon-chevron-right"></i>Connected Component '+connectedC['@cc_id']+'</a><div class="list-group collapse" id="'+ key + '_' + connectedC['@cc_id'] +'">'+bccString+'</div>';
-                    // console.log(key + '_' +cc);
-                    // console.log(json[key].CC[cc]);
                 });
             } else {
                 //single connected component
@@ -132,35 +114,28 @@ $.getJSON(index_file, function(json) {
                             var biConnectedC = biConnectedCs[bcc];
                             var edges = biConnectedC['@num_edges'];
                             var nodes = biConnectedC['@num_nodes'];
-                            bccString += '<a id="'+key+'_'+connectedC['@cc_id']+'_'+biConnectedC['@bcc_id']+'" href="#" class="list-group-item" onclick="load_subgraph(this)">BiConnected Component '+biConnectedC['@bcc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>'
-                            // bccString += '<a class="list-group-item list-group-item-action" data-toggle="list" href="" onclick="load_subgraph(this)" role="tab" aria-controls="home"> BiConnected Component '+biConnectedC['@bcc_id']+'</a>';
+                            bccString += '<a id="'+key+'_'+connectedC['@cc_id']+'_'+biConnectedC['@bcc_id']+'" href="#" class="list-group-item bcc" onclick="load_subgraph(this)">BiConnected Component '+biConnectedC['@bcc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>'
                         });
                     } else {
                         var biConnectedC = connectedC.BCC;
                         var edges = biConnectedC['@num_edges'];
                         var nodes = biConnectedC['@num_nodes'];
-                        bccString += '<a id="'+key+'_'+connectedC['@cc_id']+'_'+biConnectedC['@bcc_id']+'" href="#" class="list-group-item" onclick="load_subgraph(this)">BiConnected Component '+biConnectedC['@bcc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>'
-                        // bccString += '<a class="list-group-item list-group-item-action" data-toggle="list" href="" onclick="load_subgraph(this)" role="tab" aria-controls="home"> BiConnected Component '+biConnectedC['@bcc_id']+'</a>';
+                        bccString += '<a id="'+key+'_'+connectedC['@cc_id']+'_'+biConnectedC['@bcc_id']+'" href="#" class="list-group-item bcc" onclick="load_subgraph(this)">BiConnected Component '+biConnectedC['@bcc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>'
                     }
-                    ccString += '<a href="#'+ key + '_' + connectedC['@cc_id'] +'" class="list-group-item" data-toggle="collapse"><i class="glyphicon glyphicon-chevron-right"></i>Connected Component '+connectedC['@cc_id']+'</a><div class="list-group collapse" id="'+ key + '_' + connectedC['@cc_id'] +'">'+bccString+'</div>';
+                    ccString += '<a href="#'+ key + '_' + connectedC['@cc_id'] +'" class="list-group-item cc" data-toggle="collapse"><i class="glyphicon glyphicon-chevron-right"></i>Connected Component '+connectedC['@cc_id']+'</a><div class="list-group collapse" id="'+ key + '_' + connectedC['@cc_id'] +'">'+bccString+'</div>';
                 } else {
                     var edges = connectedC['@num_edges'];
                     var nodes = connectedC['@num_nodes'];
-                    ccString += '<a id="'+key+'_'+connectedC['@cc_id']+'" href="#'+ key + '_' + connectedC['@cc_id'] +'" class="list-group-item" onclick="load_subgraph(this)" data-toggle="collapse">Connected Component '+connectedC['@cc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>'
+                    ccString += '<a id="'+key+'_'+connectedC['@cc_id']+'" href="#'+ key + '_' + connectedC['@cc_id'] +'" class="list-group-item cc" onclick="load_subgraph(this)" data-toggle="collapse">Connected Component '+connectedC['@cc_id']+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>'
                 }
-                // ccString += '<a href="#'+ key + '_' + connectedC['@cc_id'] +'" class="list-group-item" data-toggle="collapse"><i class="glyphicon glyphicon-chevron-right"></i>Connected Component '+connectedC['@cc_id']+'</a><div class="list-group collapse" id="'+ key + '_' + connectedC['@cc_id'] +'">'+bccString+'</div>';
             }
-            // console.log(ccString);
             $('#list-tab').append('<a href="#'+key+'" class="list-group-item" data-toggle="collapse"><i class="glyphicon glyphicon-chevron-right"></i>Layer '+key+'</a><div class="list-group collapse" id="'+key+'">'+ccString+'</div>');
         } else {
             // for small components
             var edges = json[key]['@num_edges'];
             var nodes = json[key]['@num_nodes'];
             $('#list-tab').append('<a href="#" onclick="load_subgraph(this)" class="list-group-item">Layer '+key+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>');
-            // $('#list-tab').append('<a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="" onclick="load_subgraph(this)" role="tab" aria-controls="home"> Layer '+key+'<span class="badge badge-primary badge-pill">'+edges+'</span> <span class="badge badge-success badge-pill">'+nodes+'</span></a>');
         }
-        
-        //key, json[key]
     }
 });
 

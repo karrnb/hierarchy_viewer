@@ -97,14 +97,14 @@ line.not-selected  {
 }
 
 text.selected {
-  pointer-events: none;
-  font: 30px sans-serif;
+    pointer-events: none;
+    font: 30px sans-serif;
 }
 
 text.not-selected {
-  pointer-events: none;
-  font: 10px sans-serif;
-  opacity: 0.1;
+    pointer-events: none;
+    font: 10px sans-serif;
+    opacity: 0.1;
 }
 
 #header {
@@ -138,11 +138,10 @@ text.not-selected {
 }
 
 .vertical-center {
-  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 100vh; /* These two lines are counted as one :-)       */
-
-  display: flex;
-  align-items: center;
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
 }
 
 .scroll-box {
@@ -178,49 +177,57 @@ rect.selection {
 }
 
 .just-padding {
-  padding: 15px;
+    padding: 15px;
 }
 
 .list-group.list-group-root {
-  padding: 0;
-  overflow: hidden;
+    padding: 0;
+    overflow: hidden;
 }
 
 .list-group.list-group-root .list-group {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .list-group.list-group-root .list-group-item {
-  border-radius: 0;
-  border-width: 1px 0 0 0;
+    border-radius: 0;
+    border-width: 1px 0 0 0;
 }
 
 .list-group.list-group-root > .list-group-item:first-child {
-  border-top-width: 0;
+    border-top-width: 0;
 }
 
 .list-group.list-group-root > .list-group > .list-group-item {
-  padding-left: 30px;
+    padding-left: 30px;
 }
 
 .list-group.list-group-root > .list-group > .list-group > .list-group-item {
-  padding-left: 45px;
+    padding-left: 45px;
 }
 
 .list-group-item .glyphicon {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 .badge-primary {
-  background-color: #f89406 !important;
+    background-color: #f89406 !important;
 }
 .badge-primary:hover {
-  background-color: #c67605;
+    background-color: #c67605;
 }
 
 .badge-success {
-  background-color: #468847 !important;
+    background-color: #468847 !important;
 }
 .badge-success:hover {
-  background-color: #356635;
+    background-color: #356635;
+}
+
+.bcc {
+    padding-left: 13% !important;
+}
+
+.cc {
+    padding-left: 8% !important;
 }
