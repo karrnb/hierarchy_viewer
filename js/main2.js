@@ -63,12 +63,33 @@ function zoomed() {
   myTransform=d3.event.transform;//myTransform.scale(d3.event.transform.k).translate(d3.event.transform.x,d3.event.transform.y);
 }
 
+function reverseForIn(obj, f) {
+  var arr = [];
+  for (var key in obj) {
+    // add hasOwnPropertyCheck if needed
+    arr.push(key);
+  }
+  for (var i=arr.length-1; i>=0; i--) {
+    f.call(obj, arr[i]);
+  }
+}
+
 var myTransform=d3.zoomIdentity;
 
 var bucketing_file = path + 'bucketing.json';
 
 $.getJSON(bucketing_file, function(json) {
-    for(var layer in json) {
+    // console.log(json);
+    // newJson = ReverseObject(json);
+    reversedJson = [];
+    reverseForIn(json, function(temp) {
+        reversedJson.push(temp);
+    });
+    // console.log(reversedJson);
+    // json.reverse();
+    for(var layer in reversedJson) {
+        layer = reversedJson[layer];
+        // console.log(layer);
         var bucketString = '';
         var layerBuckets = json[layer];
         if (layerBuckets.length == 1) {
@@ -107,6 +128,7 @@ $.getJSON(bucketing_file, function(json) {
         });
         $('#list-tab').append('<a href="#'+layer+'" class="list-group-item" data-toggle="collapse"><i class="glyphicon glyphicon-chevron-right"></i>Layer '+layer+'</a><div class="list-group collapse" id="'+layer+'">'+bucketString+'</div>');
     }
+    // });
 });
 /*
 var index_file = path + 'output_list.json';
@@ -391,8 +413,10 @@ function run(simulationPassed, nodeList, filename, layerId) {
             }
 
             function checkMode () {
-                var classListManual = $('#v-pills-manual-tab').attr('class');
-                var classListRedraw = $('#v-pills-redraw-tab').attr('class');
+                var classListManual = document.getElementById('v-pills-manual-tab').className;
+                var classListRedraw = document.getElementById('v-pills-redraw-tab').className;
+                // var classListManual = $('#v-pills-manual-tab').attr('class');
+                // var classListRedraw = $('#v-pills-redraw-tab').attr('class');
                 if (classListManual.includes('active')) {
                     n = this;
                     console.log(n);

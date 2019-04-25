@@ -1,11 +1,53 @@
 import xmltodict, json, os
+import matplotlib.pyplot as plt
 
-path = '../data/protein2/'
+path = '../data/protein_test/'
 
 #[256, 512, 1024, 2048, 4096, 8192, 16384, 32768]
 BUCKET_SIZE = 4096
 
 BUCKET_OBJ = {}
+
+def generate_image():
+    for key, value in BUCKET_OBJ.items():
+        if key == '11':
+            for bucket_id, bucket in enumerate(value):
+                total_edges = 0
+                total_vertices = 0
+                x_pos = []
+                y_pos = []
+                for comp in bucket:
+                    if 'small' in comp['@file']:
+                        SMALL = True
+                    else:
+                        SMALL = False
+                    print(json.dumps(comp))
+                    total_edges += int(comp['@num_edges'])
+                    total_vertices += int(comp['@num_nodes'])
+                for comp in bucket:
+                    plt.bar(int(comp['@num_nodes'])/total_vertices, int(comp['@num_edges'])/total_edges)
+                    x_pos.append(int(comp['@num_edges'])/total_edges)
+                    y_pos.append(int(comp['@num_nodes'])/total_vertices)
+
+                print(x_pos, y_pos)
+                plt.axis('off')
+                plt.tick_params(axis='both', left='off', top='off', right='off', bottom='off', labelleft='off', labeltop='off', labelright='off', labelbottom='off')
+                # plt.xticks([])
+                # plt.yticks([])
+                # y_pos is vertices, x_pos is edges
+                # plt.bar(y_pos, x_pos)
+                # plt.savefig('foo.png')
+                if SMALL:
+                    plt.savefig(path + 'small/' + key + '_bucket_' + str(bucket_id) + '.png', dpi=100, bbox_inches='tight', pad_inches=0.0)
+                else:
+                    plt.savefig(path + key + '/bucket_' + str(bucket_id) + '.png', dpi=100, bbox_inches='tight', pad_inches=0.0)
+                # plt.show()
+                plt.clf()
+                # plt.savefig('bucket_' + str(bucket_id) + '.png')
+                # plt.savefig('bucket_' + str(bucket_id) + '.png', dpi=100, bbox_inches='tight', pad_inches=0.0)
+
+
+        # print(json.dumps(value))
 
 def convertBucketJson(layer, buckets):
     for bucket_id, bucket in enumerate(buckets):
@@ -37,12 +79,12 @@ def convertBucketJson(layer, buckets):
 
                         if (counter >= int(start)) and (counter <= int(count)):
                             if nodes[0] not in adj_list:
-                                adj_list[nodes[0]] = []
+                                adj_list[{nodes[0]:1}] = []
 
                             adj_list[nodes[0]].append({nodes[1]:'6'})
 
                             if nodes[1] not in adj_list:
-                                adj_list[nodes[1]] = []
+                                adj_list[{nodes[1]:1}] = []
 
                             adj_list[nodes[1]].append({nodes[0]:'6'})
                     counter += 1
@@ -79,11 +121,11 @@ def generate_bucket(layer, data):
     nodes = 0
     if 'CC' in data:
         if isinstance(data['CC'], list):
-            data['CC'].sort(key=lambda x: x['@num_nodes'])
+            data['CC'].sort(key=lambda x: x['@num_edges'])
             for cc in data['CC']:
                 if 'BCC' in cc:
                     if isinstance(cc['BCC'], list):
-                        cc['BCC'].sort(key=lambda x: x['@num_nodes'])
+                        cc['BCC'].sort(key=lambda x: x['@num_edges'])
                 # print(json.dumps(cc))
                 nodes += int(cc['@num_nodes'])
 
@@ -216,24 +258,27 @@ out_obj = {}
 
 for folder in folders:
     if 'py' not in str(folder):
-        if str(folder) == 'small':
-            filename = path + str(folder) + '/cc_small.xml'
-            with open(filename, 'r') as myfile:
-                data = myfile.read()
-            output = xmltodict.parse(data)
-            for cc in output['root']['CC']:
-                layer = cc['@file'][14:-4]
-                out_obj[layer] = cc
-                generate_file(layer, cc)
-                generate_bucket(layer, cc)
-        else:
-            filename = path + str(folder) + '/CC_BCC_index.xml'
-            with open(filename, 'r') as myfile:
-                data = myfile.read()
-            output = xmltodict.parse(data)
-            out_obj[folder] = output['root']
-            generate_file(folder, output['root'])
-            generate_bucket(folder, output['root'])
+        if 'json' not in str(folder):
+            if str(folder) == 'small':
+                filename = path + str(folder) + '/cc_small.xml'
+                with open(filename, 'r') as myfile:
+                    data = myfile.read()
+                output = xmltodict.parse(data)
+                for cc in output['root']['CC']:
+                    layer = cc['@file'][14:-4]
+                    out_obj[layer] = cc
+                    generate_file(layer, cc)
+                    generate_bucket(layer, cc)
+            else:
+                filename = path + str(folder) + '/CC_BCC_index.xml'
+                with open(filename, 'r') as myfile:
+                    data = myfile.read()
+                output = xmltodict.parse(data)
+                out_obj[folder] = output['root']
+                generate_file(folder, output['root'])
+                generate_bucket(folder, output['root'])
+
+generate_image()
 
 # print(json.dumps(out_obj))
 with open(path + 'output_list.json', 'w+') as f:

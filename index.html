@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/test2.css">
-<!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-<!-- <svg width="3500" height="2000"></svg> -->
+
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<!-- <script src="//d3js.org/d3.v3.min.js"></script> -->
 <script src="https://d3js.org/d3-dsv.v1.min.js"></script>
 <script src="https://d3js.org/d3-zoom.v1.min.js"></script>
 <script type='text/javascript' src="js/d3-tip.js"> </script>
-<script src="js/buckets.js"></script>
-<!-- <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script> -->
-<!-- <script src="js/bootstrap.min.js"></script> -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+<script src="js/buckets.js"></script>
 <script src="js/services.js"></script>
 <script src="js/hover.js"></script>
 
 <body>
     <div class="row">
         <div id="header"><h1>Protein Data Layers </h1></div>
+        <div id="header-details">
+            <span><strong>Nodes:</strong> 33,431</span>
+            <span><strong>Edges:</strong> 12,754,961</span>
+        </div>
     </div>
     <div class="row" id="main-body">
         <div class="col-md-2" style="width: 20% !important;">
             <div class="just-padding" id="list-tab"></div>
             <div id="imgbox"></div>
-            <!-- <div class="list-group" id="list-tab" role="tablist">
-                <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
-                <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
-                <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
-                <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
-            </div> -->
         </div>
         <div class="col-md-2">
             <div id="overview">
@@ -60,36 +51,19 @@
                     </div>
                     <div class="panel-body">
                         <p class="scroll-box" id="nodeNeighbors">
-                            3tk3.HEM_A_500_oxidoreductase_1.14.14.1
-                            3qz1.HEM_A_500_oxidoreductase_1.14.99.10
+                            <a href="https://www.rcsb.org/structure/3tk3" target="_new">3tk3.HEM_A_500_oxidoreductase_1.14.14.1</a>
+                            <a href="https://www.rcsb.org/structure/3qz1" target="_new">3qz1.HEM_A_500_oxidoreductase_1.14.99.10</a>
                         </p>
                     </div>
                 </div>
-                <!-- <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title"><a href="https://www.rcsb.org/structure/4cka" target="_new" id="nodeHead">4cka.HEM_A_1480_oxidoreductase_1.14.13.70</a></h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Node Neighbours (<span id="neighborLength"></span>)</h6>
-                        <p class="card-text scroll-box" id="nodeNeighbors">
-                            3tk3.HEM_A_500_oxidoreductase_1.14.14.1
-                            3qz1.HEM_A_500_oxidoreductase_1.14.99.10
-                        </p>
-                    </div>
-                </div> -->
             </div>
-            <!-- <div class="row">
-                <input id="chargeElem" step="10" type="range" min="-700" max="-10" value="-20"/>
-                <input id="distanceElem" step="10" type="range" min="-100" max="100" value="80"/>
-            </div>
-            <div class="row">
-                <button id="btnRedraw" type="button" class="btn btn-success">Rest Graph</button>    
-            </div> -->
         </div>
         <div class="col-md-8">
             <div id="chart"></div>
         </div>
     </div>
-    <script src="js/main2.js"></script>
+    <script src="js/functions.js"></script>
+    <script src="js/main.js"></script>
     <script src="js/sparsenet.js"></script>
-    <!-- <script src="js/selection.js"></script> -->
     <script src="js/display.js"></script>
 </body>

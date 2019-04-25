@@ -35,8 +35,9 @@ function getSparseNet(layerId, node) {
         dataType: "json",
         url: "http://"+url+"/tulipTool/findSparseNet?layer="+layerId+"&nodes="+node.id,
         success: function(data){
+            console.log(data);
             // timedoutHighlight(data);
-            sparseNetNew(data, layerId);
+            // sparseNetNew(data, layerId);
             // console.log(data['longest']);
             // highlightPath(data['longest']);
         }

@@ -40,23 +40,13 @@ function sparseNetNew(data, layerId) {
             nodesArr.forEach(function(element) {
                 nodesVal.push(graph[element]);
             });
-            // var links = d3.merge(
-            // nodesVal.map(function(source, index) {
-            //     return source.map(function(target) {
-            //         for(var i in target){
-            //             return {source: nodesArr[index], target: i.toString(), value: target[i]}
-            //         }
-            //     });
-            // }));
-            console.log(nodes);
 
             for (var i = 0; i < nodes.length; i++) {
                 // console.log(nodes[i]);
                 nodes[i].edges={}; 
                 nodeMap[nodes[i].id] = nodes[i];
             }
-            // console.log(nodes);
-            console.log(mygraph);
+
             for(var i = 0; i < links.length; i++) {
                 var link = links[i];
                 // console.log(link);

@@ -235,7 +235,7 @@ rect.selection {
 }
 
 .thumbnail {
-    width: 13% !important;
+    width: 10% !important;
     float: right;
     margin-bottom: 0px !important;
 }
@@ -268,4 +268,8 @@ rect.selection {
     z-index : 50;
     overflow : hidden;
     text-align : center;
+}
+
+#header-details {
+    padding-left: 1%;
 }
