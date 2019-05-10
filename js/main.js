@@ -3,6 +3,7 @@ var path = '../data/protein2/';
 var chartDiv = document.getElementById("chart");
 var width = chartDiv.clientWidth;
 var height = chartDiv.clientHeight;
+document.getElementById("list-tab").style.height = (parseInt(height) * .85).toString() + "px";
 
 var svg = d3.select(chartDiv).append("svg");
 

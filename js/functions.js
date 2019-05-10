@@ -44,7 +44,9 @@ function run(simulationPassed, nodeList, filename, layerId) {
             for (var i = 0; i < nodes.length; i++) {
                 nodes[i].edges={}; 
                 nodeMap[nodes[i].id] = nodes[i];
-            }            
+            }
+
+            setDetails(nodes.length, links.length/2);
             
             var link = svg.append("g")
                 .attr("class", "links")
@@ -157,6 +159,7 @@ function run(simulationPassed, nodeList, filename, layerId) {
                     for (var i in neighborList) {
                         for (var j in neighborList[i]) {
                             nameList += jsonNames[j] + '\n';
+                            // nameList += jsonNames[j] + '<br />';
                             neighborListArr.push(j);
                         }
                     }
@@ -183,6 +186,7 @@ function run(simulationPassed, nodeList, filename, layerId) {
                     for (var i in neighborList) {
                         for (var j in neighborList[i]) {
                             nameList += jsonNames[j] + '\n';
+                            // nameList += jsonNames[j] + '<br />';
                         }
                     }
                     var url = getName(jsonNames[Object.keys(graph)[0]]);

@@ -128,7 +128,7 @@ text.not-selected {
 }
 
 #details {
-    width: 80%;
+    width: 330px;
     padding-top: 10%;
     padding-right: 1%;
 }
@@ -146,7 +146,7 @@ text.not-selected {
 
 .scroll-box {
     overflow-y: scroll;
-    height: 300px;
+    height: 500px;
     font-size: 12px;
     /*padding: 1rem*/
 }
@@ -168,7 +168,7 @@ rect.selection {
 
 #list-tab {
     overflow-y: auto;
-    max-height: 900px;
+    /*max-height: 900px;*/
     /*width: 20% !important;*/
 }
 
